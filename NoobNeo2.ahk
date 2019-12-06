@@ -10,6 +10,10 @@ CapsLock:: ;disable capslock (which is used for 3. Layer)
 ;;;;;;;;;;;;
 
 ;; 3.1 qwer ;;
+; w -> _
+CapsLock & W::
+# & W::Send _
+
 ; e -> [
 CapsLock & E::
 # & E::Send [
@@ -17,6 +21,13 @@ CapsLock & E::
 ; r -> ]
 CapsLock & R::
 # & R::Send ]
+
+; t -> ^
+CapsLock & T::
+# & T::
+Send {`^}
+Send {Space}
+return
 
 ; z -> !
 CapsLock & Z::
@@ -29,6 +40,14 @@ CapsLock & U::
 ; i -> >
 CapsLock & I::
 # & I::Send >
+
+; o -> =
+CapsLock & O::
+# & O::Send {`=}
+
+; p -> &
+CapsLock & P::
+# & P::Send &
 
 ;; 3.2 asdf ;;
 
@@ -81,6 +100,45 @@ CapsLock & Ä::
 ; y -> #
 CapsLock & Y::
 # & Y::Send {#}
+
+; x -> $
+CapsLock & X::
+# & X::Send $
+
+; c -> |
+CapsLock & C::
+# & C::Send |
+
+; v -> ~
+CapsLock & V::
+# & V::Send ~
+
+; b -> `
+CapsLock & B::
+# & B::
+Send {``}
+Send {Space}
+return
+
+; n -> +
+CapsLock & N::
+# & N::Send {`+}
+
+; m -> %
+CapsLock & M::
+# & M::Send {`%}
+
+; , -> ~
+CapsLock & ,::
+# & ,::Send "
+
+; . -> '
+CapsLock & .::
+# & .::Send '
+
+; - -> ;
+CapsLock & -::
+# & -::Send {`;}
 
 ;;;;;;;;;;;;
 ; 4. Layer ;
