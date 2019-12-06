@@ -1,7 +1,7 @@
 # NoobNeo2 - Windows
 
 ## Install Windows version
-- Download the Program: https://github.com/xlaech/NoobNeo2_Windows/blob/master/NoobNeo2.exe
+- Download the Program: https://github.com/xlaech/NoobNeo2_Windows/raw/master/NoobNeo2.exe
 - Execute from anywhere
 
 ## What is NoobNeo2
